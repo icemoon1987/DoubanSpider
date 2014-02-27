@@ -306,8 +306,10 @@ interval = setInterval(function() {
 		console.log("*****************************");
         console.log("step " + (testindex + 1));
         steps[testindex]();
+        /**
 		f = fs.open("pages/step" + (testindex + 1) + ".html","w");
 		f.write(page.content);
+		*/
         testindex++;
     }
 
